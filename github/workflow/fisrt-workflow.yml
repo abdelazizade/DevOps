@@ -4,8 +4,8 @@ on: push
 
 jobs:
     first_jobs:
-              runs-on: ubontu lates
+              runs-on: ubuntu-latest
               steps: 
                     name: print msg
-                    run: "my first workflow"
+                    run: echo "my first workflow"
 
