@@ -1,0 +1,11 @@
+name: frist workflow
+
+on: push
+
+jobs:
+    first_jobs:
+              runs-on: ubuntu-latest
+              steps: 
+                    - name: print msg
+                      run: echo "my first workflow"
+
