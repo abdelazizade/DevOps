@@ -1,0 +1,11 @@
+name: frist workflow
+
+on: push
+
+jobs:
+    first_jobs:
+              runs-on: ubontu lates
+              steps: 
+                    name: print msg
+                    run: "my first workflow"
+
